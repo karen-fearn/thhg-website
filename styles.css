@@ -66,3 +66,15 @@ img{max-width:100%}
 .wood-board:after{content:'';position:absolute;top:15px;left:3%;right:3%;height:77px;border-top:3px solid #9b5429;border-radius:50% 50% 0 0 / 85% 85% 0 0;pointer-events:none}
 .board-emblem{height:72px;margin:0 0 8px;filter:none}.board-emblem img{width:152px;height:75px;object-fit:contain;max-width:100%}.wood-board-title small{font-weight:700;letter-spacing:.7px}.wood-board-title h3{font-weight:700}.wood-board-entries{margin-top:5px}
 @media(max-width:800px){.wood-board{padding-top:77px}.board-emblem{height:66px}.board-emblem img{width:137px;height:68px}}
+
+/* Match the square crest's original green so its edges disappear */
+:root{--green:#354f24;--dark:#263c1b}
+.site-header,.masthead,.brand,.brand img{background-color:#354f24!important}
+/* Rebalance honours boards against Iain's reference: restrained curved crown and fine engraving */
+.honours-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.wood-board{clip-path:none;border-radius:48% 48% 2px 2px / 7% 7% 2px 2px;min-width:0;padding:65px 24px 30px;background:repeating-linear-gradient(91deg,transparent 0,rgba(0,0,0,.07) 2px,rgba(255,210,140,.025) 6px,transparent 15px),linear-gradient(90deg,#371609,#57220f 25%,#431909 55%,#54200c 80%,#371609);box-shadow:inset 0 0 0 5px #290d05,inset 0 0 0 9px #8d4a22,inset 0 0 0 13px #361208,0 8px 14px #0003}
+.wood-board:after{display:none}.wood-board:before{inset:16px 15px 16px;border:2px solid #8c4c25;border-radius:48% 48% 1px 1px / 6% 6% 1px 1px}
+.board-emblem{height:58px;margin:0 0 4px}.board-emblem img{width:115px;height:57px}
+.wood-board-title small{font-size:clamp(11px,1.3vw,17px);letter-spacing:.25px}.wood-board-title h3{font-size:clamp(17px,2.1vw,25px);margin:4px 0}.board-season{font-size:26px!important;padding:3px 0 5px}
+.board-columns,.honour-row{grid-template-columns:minmax(0,1.05fr) minmax(35px,.35fr) minmax(0,1.1fr);gap:5px}.board-columns{font-size:clamp(9px,1vw,12px)}.honour-row{font-size:clamp(9px,1vw,12px);line-height:1.08;padding:1.5px 0;overflow-wrap:normal}.honour-row .honour-opponent{overflow-wrap:break-word}
+@media(max-width:800px){.honours-grid{grid-template-columns:minmax(0,1fr)}.wood-board{padding:62px 17px 24px}.board-emblem{height:50px}.board-emblem img{width:108px;height:50px}.wood-board-title small{font-size:clamp(11px,3.3vw,16px)}.wood-board-title h3{font-size:clamp(16px,4.6vw,23px)}.board-columns{font-size:clamp(9px,2.6vw,12px)}.honour-row{font-size:clamp(9px,2.6vw,12px);gap:4px}.wood-board:before{inset:13px 11px 13px}}

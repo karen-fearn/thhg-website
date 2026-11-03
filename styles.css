@@ -25,3 +25,10 @@
 .quick-grid strong{color:var(--green)}
 .quick-grid a>span{color:var(--green)}
 @media(max-width:800px){.hero-photo{height:260px;object-position:center 45%}.feature-inner{padding:30px 0 38px}.quick-grid a{padding:18px 8px}.quick-grid a:first-child{border-left:0}.quicklinks{background:#f5f6f1}}
+
+/* Mobile viewport and image overflow safeguard */
+html,body{width:100%;max-width:100%;overflow-x:clip}
+main,.site-header,.feature,.quicklinks,.section,footer{width:100%;max-width:100%}
+img{max-width:100%}
+.hero-photo{width:100%;max-width:100%;display:block}
+@media(max-width:800px){.container{width:calc(100% - 32px);max-width:none;margin-left:16px;margin-right:16px}.site-header .masthead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}.site-header .brand{min-width:0;flex:1}.site-header .brand span{min-width:0}.menu-toggle{flex:0 0 auto}.feature-inner{width:calc(100% - 32px)}.quick-grid{display:grid;grid-template-columns:minmax(0,1fr)}.quick-grid a{min-width:0}.news-grid,.team-grid,.about-grid{grid-template-columns:minmax(0,1fr)}.feature .hero-photo{width:100%;height:250px;object-fit:cover}.feature p{max-width:100%}}

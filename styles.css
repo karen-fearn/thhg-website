@@ -6,3 +6,9 @@
 .news-visual.photo-pitch{background:url("IMG-20261103-WA0012.jpg") center/cover no-repeat}
 .about-panel.photo-ground{background:url("IMG-20261103-WA0011.jpg") center/cover no-repeat;min-height:380px}
 @media(max-width:800px){.feature{background-position:52% center}.feature-inner{padding-bottom:86px}.photo-credit{bottom:12px;left:0;right:auto}.news-visual{height:220px}.about-panel.photo-ground{min-height:260px}}
+
+/* Restore official club crest and simplify homepage */
+.brand img{width:70px;height:70px;object-fit:contain;background:transparent}
+.feature-inner{padding-top:85px;padding-bottom:90px}
+.feature-label{display:block;margin-bottom:18px}
+@media(max-width:800px){.brand img{width:54px;height:54px}.feature-inner{padding-top:65px;padding-bottom:78px}}

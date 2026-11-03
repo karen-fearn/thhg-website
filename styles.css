@@ -12,3 +12,16 @@
 .feature-inner{padding-top:85px;padding-bottom:90px}
 .feature-label{display:block;margin-bottom:18px}
 @media(max-width:800px){.brand img{width:54px;height:54px}.feature-inner{padding-top:65px;padding-bottom:78px}}
+
+/* Photo-led homepage with understated navigation tiles */
+.feature{background:var(--dark)}
+.hero-photo{display:block;width:100%;height:clamp(300px,42vw,540px);object-fit:cover;object-position:center 44%}
+.feature-inner{padding:38px 0 48px}
+.feature-label{margin-bottom:12px}
+.photo-credit{position:static;margin-top:14px;font-size:11px;opacity:.8}
+.quicklinks{background:#f5f6f1}
+.quick-grid a{border-color:#dce2d7;color:var(--dark);padding:25px 22px}
+.quick-grid a:hover{background:#e9efe1}
+.quick-grid strong{color:var(--green)}
+.quick-grid a>span{color:var(--green)}
+@media(max-width:800px){.hero-photo{height:260px;object-position:center 45%}.feature-inner{padding:30px 0 38px}.quick-grid a{padding:18px 8px}.quick-grid a:first-child{border-left:0}.quicklinks{background:#f5f6f1}}

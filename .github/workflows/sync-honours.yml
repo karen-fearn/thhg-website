@@ -1,0 +1,35 @@
+name: Sync Play-Cricket honours
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: Season to refresh
+        required: true
+        default: '2026'
+  schedule:
+    - cron: '35 3 * * *'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build honours records
+        env:
+          PLAY_CRICKET_API_TOKEN: ${{ secrets.PLAY_CRICKET_API_TOKEN }}
+          SEASON: ${{ inputs.season || '2026' }}
+        run: node scripts/sync-honours.mjs
+      - name: Commit updated public records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/honours.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Play-Cricket honours records"
+            git push
+          fi

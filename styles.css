@@ -78,3 +78,23 @@ img{max-width:100%}
 .wood-board-title small{font-size:clamp(11px,1.3vw,17px);letter-spacing:.25px}.wood-board-title h3{font-size:clamp(17px,2.1vw,25px);margin:4px 0}.board-season{font-size:26px!important;padding:3px 0 5px}
 .board-columns,.honour-row{grid-template-columns:minmax(0,1.05fr) minmax(35px,.35fr) minmax(0,1.1fr);gap:5px}.board-columns{font-size:clamp(9px,1vw,12px)}.honour-row{font-size:clamp(9px,1vw,12px);line-height:1.08;padding:1.5px 0;overflow-wrap:normal}.honour-row .honour-opponent{overflow-wrap:break-word}
 @media(max-width:800px){.honours-grid{grid-template-columns:minmax(0,1fr)}.wood-board{padding:62px 17px 24px}.board-emblem{height:50px}.board-emblem img{width:108px;height:50px}.wood-board-title small{font-size:clamp(11px,3.3vw,16px)}.wood-board-title h3{font-size:clamp(16px,4.6vw,23px)}.board-columns{font-size:clamp(9px,2.6vw,12px)}.honour-row{font-size:clamp(9px,2.6vw,12px);gap:4px}.wood-board:before{inset:13px 11px 13px}}
+
+/* Final honours presentation: classic carved mahogany plaque, inspired by approved design */
+.honours-section{background:#f3f1ea}
+.honours-grid{grid-template-columns:minmax(0,1fr);max-width:940px;margin:0 auto;gap:36px}
+.wood-board{position:relative;overflow:hidden;isolation:isolate;min-width:0;min-height:0;padding:118px clamp(26px,6%,70px) 52px;border-radius:48% 48% 3px 3px / 6.5% 6.5% 3px 3px;background:repeating-linear-gradient(91deg,rgba(17,5,1,.10) 0,rgba(255,200,130,.025) 4px,rgba(30,8,2,.08) 10px,transparent 18px),linear-gradient(100deg,#451804 0%,#682a0d 21%,#4b1908 48%,#692b0e 73%,#411405 100%);box-shadow:inset 0 0 0 5px #260b03,inset 0 0 0 9px #9a5328,inset 0 0 0 12px #361005,inset 0 0 0 17px #ad6b38,inset 0 0 0 21px #310d04,0 12px 24px #0004;color:#f3d79e}
+.wood-board:before{content:'';position:absolute;inset:28px 27px 27px;border:2px solid #9f6333;border-radius:48% 48% 1px 1px / 5% 5% 1px 1px;pointer-events:none;z-index:-1}
+.wood-board:after{display:none}
+.board-emblem{height:112px;margin:0 auto 14px}
+.board-emblem img{height:112px;width:230px;object-fit:contain}
+.wood-board-title small{display:block;color:#f0d399;font-family:Georgia,'Times New Roman',serif;font-size:clamp(17px,3vw,30px);font-weight:bold;letter-spacing:.4px}
+.wood-board-title h3{color:#f0d399;font-family:Georgia,'Times New Roman',serif;font-size:clamp(25px,4.5vw,43px);line-height:1.1;margin:8px 0 18px}
+.board-season{display:block;border-top:2px solid #cfab69;border-bottom:2px solid #cfab69;font-family:Georgia,serif;font-size:clamp(34px,5vw,55px)!important;line-height:1.2;margin-bottom:8px;padding:8px 0}
+.board-columns,.honour-row{grid-template-columns:minmax(0,1.1fr) minmax(70px,.4fr) minmax(0,1.25fr);gap:0}
+.board-columns{border-bottom:2px solid #cda76c;font-family:Georgia,serif;font-size:clamp(14px,2vw,20px);padding:6px 0 9px}
+.honour-row{font-family:Georgia,serif;font-size:clamp(12px,1.55vw,17px);line-height:1.22;padding:3px 0;color:#f4dbad}
+.honour-row strong,.honour-row .honour-opponent{font-size:inherit;color:inherit}
+.board-columns>*:nth-child(1),.honour-row>*:nth-child(1),.board-columns>*:nth-child(2),.honour-row>*:nth-child(2){border-right:1px solid #cda76c99;padding-right:9px}
+.board-columns>*:nth-child(2),.honour-row>*:nth-child(2){padding-left:9px;text-align:center}
+.board-columns>*:nth-child(3),.honour-row>*:nth-child(3){padding-left:15px}
+@media(max-width:800px){.honours-grid{max-width:100%}.wood-board{padding:75px 18px 28px;border-radius:48% 48% 2px 2px / 4% 4% 2px 2px;box-shadow:inset 0 0 0 4px #2b0c04,inset 0 0 0 7px #975026,inset 0 0 0 10px #351005,inset 0 0 0 13px #a75f30,0 6px 16px #0004}.wood-board:before{inset:17px 15px 15px;border-width:1px}.board-emblem{height:70px;margin-bottom:8px}.board-emblem img{height:70px;width:150px}.wood-board-title small{font-size:clamp(12px,3.4vw,18px)}.wood-board-title h3{font-size:clamp(19px,5vw,28px);margin:5px 0 11px}.board-season{font-size:32px!important;padding:5px 0}.board-columns,.honour-row{grid-template-columns:minmax(0,1fr) minmax(42px,.37fr) minmax(0,1.13fr)}.board-columns{font-size:clamp(10px,2.8vw,14px);padding:4px 0 6px}.honour-row{font-size:clamp(9px,2.5vw,13px);line-height:1.15;padding:2px 0}.board-columns>*:nth-child(1),.honour-row>*:nth-child(1),.board-columns>*:nth-child(2),.honour-row>*:nth-child(2){padding-right:4px}.board-columns>*:nth-child(2),.honour-row>*:nth-child(2){padding-left:4px}.board-columns>*:nth-child(3),.honour-row>*:nth-child(3){padding-left:7px}}

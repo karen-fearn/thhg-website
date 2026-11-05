@@ -25,9 +25,9 @@ for(const item of summary.result_summary){
  const teamName=String(homeOwn?detail.home_team_name:detail.away_team_name||'');
  const text=[teamName,String(item.team_name||''),String(detail.competition_name||'')].join(' ').toLowerCase();
  // Conservative classification: do not silently treat unknown or junior sides as senior men.
- const junior=/\\b(u(?:nder)?[- ]?\\d{1,2}|junior|youth|colts)\\b/i.test(text);
+ const junior=/\b(u(?:nder)?[- ]?\d{1,2}|junior|youth|colts)\b/i.test(text);
  const women=/women|ladies|female/i.test(text);
- const men=/men|mens|senior|\\b[1-6](?:st|nd|rd|th)?\\s*(?:xi|team)\\b/i.test(text);
+ const men=/men|mens|senior|\b[1-6](?:st|nd|rd|th)?\s*(?:xi|team)\b/i.test(text);
  const category=junior?'excluded-junior':women?'women':men?'men':'unclassified';
  const ownTeamId=String(homeOwn?detail.home_team_id:detail.away_team_id);
  const opponent=homeOwn?detail.away_club_name:detail.home_club_name;
@@ -49,5 +49,5 @@ for(const item of summary.result_summary){
 }
 const output={season,updated:new Date().toISOString().slice(0,10),matches};
 await fs.mkdir('data',{recursive:true});
-await fs.writeFile('data/senior-stats-2026.json',JSON.stringify(output,null,2)+'\\n');
+await fs.writeFile('data/senior-stats-2026.json',JSON.stringify(output,null,2)+'\n');
 console.log('Processed '+matches.length+' matches; categories:',matches.reduce((a,m)=>(a[m.category]=(a[m.category]||0)+1,a),{}));

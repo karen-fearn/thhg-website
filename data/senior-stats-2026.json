@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "matches": [
     {
       "matchId": 7318343,
@@ -3244,11 +3244,11 @@
       ]
     },
     {
-      "matchId": 7706402,
+      "matchId": 7706397,
       "date": "07/06/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Wickersley Old Village CC",
+      "opponent": "Harthill CC",
       "players": []
     },
     {
@@ -3260,11 +3260,11 @@
       "players": []
     },
     {
-      "matchId": 7706397,
+      "matchId": 7706402,
       "date": "07/06/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Harthill CC",
+      "opponent": "Wickersley Old Village CC",
       "players": []
     },
     {
@@ -4281,6 +4281,14 @@
       ]
     },
     {
+      "matchId": 7706311,
+      "date": "21/06/2026",
+      "team": "Under 9",
+      "category": "excluded-junior",
+      "opponent": "Bradfield Village Fellowship CC",
+      "players": []
+    },
+    {
       "matchId": 7706329,
       "date": "21/06/2026",
       "team": "Under 9",
@@ -4294,14 +4302,6 @@
       "team": "Under 9",
       "category": "excluded-junior",
       "opponent": "Hollinsend Methodist CC",
-      "players": []
-    },
-    {
-      "matchId": 7706311,
-      "date": "21/06/2026",
-      "team": "Under 9",
-      "category": "excluded-junior",
-      "opponent": "Bradfield Village Fellowship CC",
       "players": []
     },
     {
@@ -4825,19 +4825,19 @@
       "players": []
     },
     {
-      "matchId": 7706343,
-      "date": "28/06/2026",
-      "team": "Under 9",
-      "category": "excluded-junior",
-      "opponent": "Harthill CC",
-      "players": []
-    },
-    {
       "matchId": 7706373,
       "date": "28/06/2026",
       "team": "Under 9",
       "category": "excluded-junior",
       "opponent": "Oughtibridge CC",
+      "players": []
+    },
+    {
+      "matchId": 7706343,
+      "date": "28/06/2026",
+      "team": "Under 9",
+      "category": "excluded-junior",
+      "opponent": "Harthill CC",
       "players": []
     },
     {
@@ -5211,11 +5211,11 @@
       ]
     },
     {
-      "matchId": 7706400,
+      "matchId": 7706352,
       "date": "05/07/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Sheffield United CC",
+      "opponent": "Hollinsend Methodist CC",
       "players": []
     },
     {
@@ -5227,11 +5227,11 @@
       "players": []
     },
     {
-      "matchId": 7706352,
+      "matchId": 7706400,
       "date": "05/07/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Hollinsend Methodist CC",
+      "opponent": "Sheffield United CC",
       "players": []
     },
     {
@@ -9854,6 +9854,14 @@
           "overs": "2"
         }
       ]
+    },
+    {
+      "matchId": 7764533,
+      "date": "10/11/2026",
+      "team": "U11 Mixed Indoor Hardball",
+      "category": "excluded-junior",
+      "opponent": "Coal Aston CC",
+      "players": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "matches": [
     {
       "matchId": 7318343,
@@ -3252,19 +3252,19 @@
       "players": []
     },
     {
-      "matchId": 7706401,
-      "date": "07/06/2026",
-      "team": "Under 9",
-      "category": "excluded-junior",
-      "opponent": "Whitley Hall CC",
-      "players": []
-    },
-    {
       "matchId": 7706402,
       "date": "07/06/2026",
       "team": "Under 9",
       "category": "excluded-junior",
       "opponent": "Wickersley Old Village CC",
+      "players": []
+    },
+    {
+      "matchId": 7706401,
+      "date": "07/06/2026",
+      "team": "Under 9",
+      "category": "excluded-junior",
+      "opponent": "Whitley Hall CC",
       "players": []
     },
     {
@@ -4281,14 +4281,6 @@
       ]
     },
     {
-      "matchId": 7706311,
-      "date": "21/06/2026",
-      "team": "Under 9",
-      "category": "excluded-junior",
-      "opponent": "Bradfield Village Fellowship CC",
-      "players": []
-    },
-    {
       "matchId": 7706329,
       "date": "21/06/2026",
       "team": "Under 9",
@@ -4302,6 +4294,14 @@
       "team": "Under 9",
       "category": "excluded-junior",
       "opponent": "Hollinsend Methodist CC",
+      "players": []
+    },
+    {
+      "matchId": 7706311,
+      "date": "21/06/2026",
+      "team": "Under 9",
+      "category": "excluded-junior",
+      "opponent": "Bradfield Village Fellowship CC",
       "players": []
     },
     {
@@ -5211,11 +5211,11 @@
       ]
     },
     {
-      "matchId": 7706352,
+      "matchId": 7706400,
       "date": "05/07/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Hollinsend Methodist CC",
+      "opponent": "Sheffield United CC",
       "players": []
     },
     {
@@ -5227,11 +5227,11 @@
       "players": []
     },
     {
-      "matchId": 7706400,
+      "matchId": 7706352,
       "date": "05/07/2026",
       "team": "Under 9",
       "category": "excluded-junior",
-      "opponent": "Sheffield United CC",
+      "opponent": "Hollinsend Methodist CC",
       "players": []
     },
     {
@@ -5827,14 +5827,6 @@
       ]
     },
     {
-      "matchId": 7706399,
-      "date": "12/07/2026",
-      "team": "Under 9",
-      "category": "excluded-junior",
-      "opponent": "Millhouses Works CC",
-      "players": []
-    },
-    {
       "matchId": 7706395,
       "date": "12/07/2026",
       "team": "Under 9",
@@ -5848,6 +5840,14 @@
       "team": "Under 9",
       "category": "excluded-junior",
       "opponent": "Aston Hall CC",
+      "players": []
+    },
+    {
+      "matchId": 7706399,
+      "date": "12/07/2026",
+      "team": "Under 9",
+      "category": "excluded-junior",
+      "opponent": "Millhouses Works CC",
       "players": []
     },
     {
@@ -9862,6 +9862,92 @@
       "category": "excluded-junior",
       "opponent": "Coal Aston CC",
       "players": []
+    },
+    {
+      "matchId": 7764547,
+      "date": "17/11/2026",
+      "team": "U11 Mixed Indoor Hardball",
+      "category": "excluded-junior",
+      "opponent": "Hallam CC",
+      "players": [
+        {
+          "name": "Imogen Flanagan",
+          "kind": "batting",
+          "runs": 8,
+          "balls": 10,
+          "dismissal": null
+        },
+        {
+          "name": "Theo X",
+          "kind": "batting",
+          "runs": 7,
+          "balls": 8,
+          "dismissal": null
+        },
+        {
+          "name": "Ellis X",
+          "kind": "batting",
+          "runs": 13,
+          "balls": 12,
+          "dismissal": null
+        },
+        {
+          "name": "Michael Caswell",
+          "kind": "batting",
+          "runs": 0,
+          "balls": 6,
+          "dismissal": null
+        },
+        {
+          "name": "Henry X",
+          "kind": "batting",
+          "runs": 19,
+          "balls": 10,
+          "dismissal": null
+        },
+        {
+          "name": "Ted S",
+          "kind": "batting",
+          "runs": 1,
+          "balls": 8,
+          "dismissal": null
+        },
+        {
+          "name": "Imogen Flanagan",
+          "kind": "bowling",
+          "wickets": 0,
+          "runsConceded": 18,
+          "overs": "2.0"
+        },
+        {
+          "name": "Theo X",
+          "kind": "bowling",
+          "wickets": 0,
+          "runsConceded": 26,
+          "overs": "2.0"
+        },
+        {
+          "name": "Henry X",
+          "kind": "bowling",
+          "wickets": 0,
+          "runsConceded": 33,
+          "overs": "2.0"
+        },
+        {
+          "name": "Ted S",
+          "kind": "bowling",
+          "wickets": 0,
+          "runsConceded": 24,
+          "overs": "2.0"
+        },
+        {
+          "name": "Ellis X",
+          "kind": "bowling",
+          "wickets": 0,
+          "runsConceded": 10,
+          "overs": "1.0"
+        }
+      ]
     }
   ]
 }
